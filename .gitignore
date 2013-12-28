@@ -14,3 +14,12 @@
 # Ignore all logfiles and tempfiles.
 /log/*.log
 /tmp
+
+# Ignore macvim swap files, .DS_Store, doc folder
+database.yml
+doc/
+*.swp
+*~
+.project
+.DS_Store
+
